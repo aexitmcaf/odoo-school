@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+    <record id="predky" model="library.book">
+        <field name="name">Поклик предків</field>
+    </record>
+    <record id="twenty" model="library.book">
+        <field name="name">Двадцать тисячі льє під водою</field>
+    </record>
+    <record id="churay" model="library.book">
+        <field name="name">Маруся Чурай</field>
+    </record>
+
+    <delete id="twenty" model="library.book"/>
+
+    <record id="predky" model="library.book">
+        <field name="name">New name</field>
+    </record>
+</odoo>

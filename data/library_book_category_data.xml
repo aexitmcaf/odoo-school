@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+        <record id="poems" model="library.book.category">
+            <field name="name">Poems</field>
+        </record>
+        <record id="history" model="library.book.category">
+            <field name="name">History</field>
+        </record>
+        <record id="fiction" model="library.book.category">
+            <field name="name">Fiction</field>
+        </record>
+</odoo>
